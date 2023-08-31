@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi hamburgeseria</title>
+    <link rel="shortcut icon" href="../imagenes/logo.svg">
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <header>
+
+        
+        <nav>
+        <ul>
+            <li><a href="">
+                <img src="../imagenes/logosnackbar - copia2.jpg" alt="logo de la hamburgueseria">
+            </a></li>
+            <li> <a href="../index.html">Inicio</a></li>
+            <li> <a href="./menu.html">Menú</a></li>
+            <li> <a href="./aboutus.html">Nuestra historia</a></li>
+            <li> <a href="./workwithus.html">Trabajá con nosotros</a></li>
+            <li> <a href="./franquicias.html">Franquicias</a></li>
+            <li> <a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.321253940324!2d-58.5919017244453!3d-34.74749946510553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc583b8a2076b%3A0x9981a042720c1364!2sBURGER%20CLAN%20ARGENTINA!5e0!3m2!1ses!2sar!4v1693253432816!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contenedor_formulario" class="container-sm" class="animate__animated animate__heartBeat">
+                <div id="after_submit"></div>
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <fieldset> <legend> <strong>Escribinos! Queremos saber de vos! </strong></legend>
+                    <div class="row">
+                    <label class="required" for="name">Nombre:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                    <label class="required" for="name">Apellido:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <div>
+                    <label for="id masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="id_masculino" value="Masculino">
+                   
+                    <label for="id femenino">Femenino</label>
+                    <input type="radio" name="sexo" id="id_femenino" value="Feminino">
+                   
+                    <label for="id otro">No binarie</label>
+                    <input type="radio" name="sexo" id="id_otro" value="otro">
+                    </div>
+                    <div class="row">
+                    <label class="required" for="email">Correo electrónico:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                    <label class="required" for="message">Dejanos acá tus comentarios:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                    </div>
+                    <div>
+                        <legend>Motivo de tu mensaje</legend>
+                        <select name="Motivo" id="">Motivo del mensaje
+                            <option value="nada">    </option>
+                            <option value="Consulta">Hacer una consulta</option>
+                            <option value="Queja">Formular un reclamo</option>
+                            <option value="Sugerencia">Hacer una sugerencia</option>
+        
+                        </select>
+        
+                    </div>
+                    <div>
+                        <input type="reset" value="Resetear formulario">
+                        <input id="submit_button" type="submit" value="Enviar" />
+                        <input type="checkbox" name="terminos_y_condiciones">
+                        <label for="terminos_y_condiciones">Acepto los términos y condiciones.</label> 
+                    </div>          
+                </fieldset>
+                </form>
+            </div>
+          </div>
+          
+                     
+                
+             
+              
+
+        </section>
+    </main>
+    <footer>
+         <h3> Mi hamburgueseria 2023. Todos los derechos reservados</h3>
+    </footer>
+
+
+
+</body>
+</html>
